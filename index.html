@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" name="description" content="This is a Test for Hattori Hanzo Shears">
+        <title>Vending Machine Test</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script id="myScript" src="VendingMachine.js"></script>
+    </head>
+    
+    <body>
+        <div class="Outer">
+            <div class="Inner">
+                <div class="row1_container1">
+                    <div class="Snack"><p><font size="2">Lays</font></p></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row1_container2">
+                    <div class="Snack"><p><font size="2">Doritos</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row1_container3">
+                    <div class="Snack"><p><font size="2">Cheetos</font></div>
+                        <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row2_container4">
+                    <div class="Snack"><p><font size="1">Funyuns</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row2_container5">
+                    <div class="Snack"><p><font size="2">Tostitos</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row2_container6">
+                    <div class="Snack"><p><font size="1">PopChips</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row3_container7">
+                    <div class="Snack"><p><font size="2">Ruffles</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row3_container8">
+                    <div class="Snack"><p><font size="1">SunChips</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row3_container9">
+                    <div class="Snack"><p><font size="2">Kettle</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row4_container10">
+                    <div class="Snack"><p><font size="1">Pringles</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row4_container11">
+                    <div class="Snack"><p><font size="2">Fritos</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+
+                <div class="row4_container12">
+                    <div class="Snack"><p><font size="1">PopTarts</font></div>
+                    <button class="SnackButton" onClick="myCost()" type="button">PUSH</button>
+                </div>
+            </div>
+
+            <div class="console">
+                <div class="display"></div>
+            </div>
+
+            <div class="coinArea">
+                <div class="slot"></div>
+            </div>
+
+            <span class="controls">
+                <button class="Complete" onClick="completeMessage()" type="button" style="background-color:green; width:16px; height:16px"></button>
+                <button class="Cancel" onClick="cancelMessage()" type="button" style="background-color:red; width:16px; height:16px"></button>
+            </span>
+
+            <button class="containerBot" type="button">PUSH</button>    
+        </div>
+        <div class="info">
+            <p><div id="message" style="text-align:center; text-size-adjust:20px;"></div></p>
+            <p><div id="order" style="text-align:center; text-size-adjust:20px;"></div></p>
+        </div>
+        
+    </body>
+
+<html>
